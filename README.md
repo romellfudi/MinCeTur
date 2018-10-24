@@ -1,9 +1,11 @@
 # Peru Ministerio de Comercio y Turismo
 
+![](snapshot/intro.jpg#splash)
+
 ## Data Science for Peruvian Government study
 
 ### By Romell Domínguez
-[![](snapshot/icono.png)](https://www.romellfudi.com/)
+[![](snapshot/icono.png#favico)](https://www.romellfudi.com/)
 
 ### You can also view online via:
 
@@ -29,3 +31,17 @@
 MIT. See the LICENSE file for the copyright notice.
 
 **2018, October**
+
+
+<style>
+img[src*='#splash'] { 
+    width:350px;
+    display: block;
+    margin: auto;
+}
+img[src*='#favico'] { 
+    width:200px;
+    display: block;
+    margin: auto;
+}
+</style>
