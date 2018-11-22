@@ -35,7 +35,7 @@ MIT. See the LICENSE file for the copyright notice.
 
 <style>
 img[src*='#splash'] { 
-    width:350px;
+    width:550px;
     display: block;
     margin: auto;
 }
