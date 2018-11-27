@@ -1,6 +1,6 @@
 # Peru Ministerio de Comercio y Turismo
 
-![](snapshot/intro.jpg#splash)
+[![](snapshot/intro.jpg#splash)](https://www.mincetur.gob.pe/)
 
 ## Data Science for Peruvian Government study
 
@@ -26,6 +26,11 @@
 * [Python 3.6](https://www.python.org/downloads/release/python-360/)
 * [Jupyter Notebook](http://jupyter.org/)
 
+
+## Resources
+
+[![](snapshot/promperu.png#promperu) ](https://www.promperu.gob.pe/TurismoIN/estadisticasEnLinea/)
+
 ## License
 
 MIT. See the LICENSE file for the copyright notice.
@@ -41,6 +46,11 @@ img[src*='#splash'] {
 }
 img[src*='#favico'] { 
     width:200px;
+    display: block;
+    margin: auto;
+}
+img[src*='#promperu'] { 
+    width:100px;
     display: block;
     margin: auto;
 }
