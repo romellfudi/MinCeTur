@@ -29,7 +29,7 @@
 
 ## Resources
 
-[![](snapshot/promperu.png#promperu) ](https://www.promperu.gob.pe/TurismoIN/estadisticasEnLinea/)
+[![](snapshot/promperu.png#favico) ](https://www.promperu.gob.pe/TurismoIN/estadisticasEnLinea/)
 
 ## License
 
@@ -46,11 +46,6 @@ img[src*='#splash'] {
 }
 img[src*='#favico'] { 
     width:200px;
-    display: block;
-    margin: auto;
-}
-img[src*='#promperu'] { 
-    width:100px;
     display: block;
     margin: auto;
 }
