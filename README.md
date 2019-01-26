@@ -5,7 +5,7 @@
 ## Data Science for Peruvian Government study
 
 ### By Romell Domínguez
-[![](https://raw.githubusercontent.com/romellfudi/assets/master/favicon.ico#favico)](https://www.romellfudi.com/)
+[![](https://raw.githubusercontent.com/romellfudi/assets/master/favicon.ico)](https://www.romellfudi.com/)
 
 ### You can also view online via:
 
@@ -41,11 +41,6 @@ MIT. See the LICENSE file for the copyright notice.
 <style>
 img[src*='#splash'] { 
     width:700px;
-    display: block;
-    margin: auto;
-}
-img[src*='#favico'] { 
-    width:200px;
     display: block;
     margin: auto;
 }
