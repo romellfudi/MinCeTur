@@ -43,45 +43,45 @@ requirements.txt     # Python dependencies required to run the notebooks and scr
 _layouts/            # HTML layout templates for the website
   default.html       # Default layout template used across the site
 
-arribo/              # Data and notebook for 'Arribo' analysis
-  arribo.ipynb       # Jupyter Notebook analyzing monthly and yearly tourist arrivals to lodging establishments, including predictions and visualizations
+arribo/              # Analysis of tourist arrivals to lodging establishments in Peru
+  arribo.ipynb       # Analysis of monthly/yearly trends, domestic vs. international visitor patterns, seasonal visitation patterns, and predictive models
   arribo.png         # Snapshot image for visualization
   rptaniomes_a.xls   # Data file for monthly arrivals
-  rptaniomes_b.xls   # Data file for monthly arrivals
-  rptaniomes_c.xls   # Data file for monthly arrivals
-  rptaniomest_a.xls  # Data file for monthly arrivals by trimester
-  rptaniomest_b.xls  # Data file for monthly arrivals by trimester
-  rptaniomest_c.xls  # Data file for monthly arrivals by trimester
+  rptaniomes_b.xls   # Data file for monthly arrivals by national visitors
+  rptaniomes_c.xls   # Data file for monthly arrivals by international visitors
+  rptaniomest_a.xls  # Data file for regional arrivals
+  rptaniomest_b.xls  # Data file for regional arrivals by national visitors
+  rptaniomest_c.xls  # Data file for regional arrivals by international visitors
 
 assets/              # Static assets for the project
   css/               # Stylesheets for the website
     style.scss       # Main stylesheet for customizing the website's appearance
 
-flujo_turista/       # Data and notebook for 'Flujo Turista' analysis
-  flujo_turista.ipynb # Jupyter Notebook analyzing international tourist flows and foreign exchange earnings, with visualizations and predictions
+flujo_turista/       # Analysis of international tourist flows and economic impact
+  flujo_turista.ipynb # Analysis of foreign exchange earnings, tourist arrivals through entry points, migration patterns by country, and future forecasts
   flujo_turista.png  # Snapshot image for visualization
 
-movimiento_general/  # Data and notebook for 'Movimiento General' analysis
-  movimiento_general.ipynb # Jupyter Notebook analyzing passenger movement at Peruvian airports, including trends and seasonal patterns
+movimiento_general/  # Analysis of passenger movement at Peruvian airports
+  movimiento_general.ipynb # Comparison of passenger traffic across key airports, domestic vs. international patterns, and seasonal trends in air traffic
   movimiento_general.png  # Snapshot image for visualization
 
-oferta_hotelera/     # Data and notebook for 'Oferta Hotelera' analysis
-  oferta_hotelera.ipynb # Jupyter Notebook analyzing the number of lodging establishments, rooms, and beds by region, with trends and predictions
+oferta_hotelera/     # Analysis of lodging infrastructure across Peru
+  oferta_hotelera.ipynb # Analysis of lodging establishments by region, room and bed-place capacity, and future infrastructure growth forecasts
 
-pernoctaciones/      # Data and notebook for 'Pernoctaciones' analysis
-  pernoctaciones.ipynb # Jupyter Notebook analyzing overnight stays by national and international tourists, including regional breakdowns and predictions
+pernoctaciones/      # Analysis of overnight stays in Peruvian lodging
+  pernoctaciones.ipynb # Analysis of overnight stays by domestic and international tourists, regional distributions, and seasonal occupancy patterns
   pernoctaciones.png # Snapshot image for visualization
 
 snapshot/            # Snapshot images used in the project
   intro.jpg          # Introductory image for the project
   promperu.png       # PromPeru logo used in the documentation
 
-visitantes_a_sitios_turisticos/ # Data and notebook for 'Visitantes a Sitios Turísticos' analysis
-  visitantes_a_sitios_turisticos.ipynb # Jupyter Notebook analyzing visitor trends to various tourist sites in Peru, including seasonal patterns and predictions
+visitantes_a_sitios_turisticos/ # Analysis of visitor trends to specific tourist sites in Peru
+  visitantes_a_sitios_turisticos.ipynb # Analysis of visitor numbers to key cultural attractions, seasonal patterns, and long-term trends in site popularity
   visitantes_a_sitios_turisticos.png  # Snapshot image for visualization
 ```
 
-This structure ensures that all resources are well-organized and easy to locate.
+Each notebook not only analyzes historical tourism data but also implements time series forecasting models to predict future trends, providing valuable insights for tourism planning and development in Peru.
 
 ## Resources
 
